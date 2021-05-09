@@ -89,9 +89,9 @@ Nachfolgend der exemplarische Ablauf einer Feuermission für eine Steilfeuerwaff
 
 <tr>
 
-<td>Shoot,over</td>
+<td>Shot,over</td>
 
-<td>Shoot, out</td>
+<td>Shot, out</td>
 
 <td>Artillerie hat Feuererlaubnis und feuert</td>
 
