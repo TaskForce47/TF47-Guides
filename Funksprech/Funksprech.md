@@ -1,160 +1,206 @@
-# Close Combat Attack (CCA) - Feuerunterstützung durch Hubschrauber mittels 5-Line
-
-## Vorwort
-
-*   Missionsart
-    *   Adjust Fire - 1 Schuss um im Anschluss anhand des Treffers zu justieren
-    *   Supression oder Immediate Smoke - kontinuierliches Feuer auf eine Position zur Niederhaltung bzw Verdecken eigener Absicht, wird durch die fordernde Truppe beendet
-    *   Fire for Effect - Feuer mit der Absicht das Ziel zu zerstören
-*   Zielposition
-    *   Grid - Angabe der Koordinate des Ziels, gern auch mit Höhenangabe wenn diese bestimmt werden kann
-    *   Polar - Zielposition wird durch Entfernung und Richtung von der eigenen Position des Anfordernden beschrieben
-    *   Shift - Ziel wird durch Verschiebung von bekanntem Punkt (Oder letztem Einschlag) beschrieben
-*   Feuermodifikation
-    *   Area Fire - gestreutes Feuer um große Fläche einzudecken
-    *   Precision Fire - Feuer wird auf den Punkt konzentriert
-    *   Danger Close - Vorsicht Verbündete nahe der Zielposition
-    *   Munitionsart, -anzahl, -besonderheiten
-*   Kontrollmethode
-    *   Fire when ready - Artillerie feuert sobald sie fertig ausgerichtet und beladen ist
-    *   At my command - Artillerie meldet Feuerbereitschaft aber schießt nur auf Befehl der anfordernden Truppe
-    *   Cannot observe - Truppe sieht das Ziel nicht, Artillerie schießt wenn bereit
-    *   Time on target - Artillerie schießt so, dass Munition zur angegebenen Zeit einschlägt
-    *   Continuous Illumination - Artillerie schießt so, dass immer Beleuchtung vor Ort ist
-
-Feuerunterstützung wird über Funk von der Truppe an einen Verantwortlichen bei der Steilfeuerwaffe übermittelt.  
-Grundsätzlich werden dabei 3 Funksprüche gemacht:  
-
-1\. Funkanruf und Missionsart  
-2\. Zielposition  
-3\. Beschreibung des Ziels, Feuermodifikation, Kontrollmethode  
-
-Nachfolgend der exemplarische Ablauf einer Feuermission für eine Steilfeuerwaffe:
-
-## Standard Call for Fire
-
-<table border="1">
-
-<tbody>
-
-<tr>
-
-<th>Anfordernde Truppe</th>
-
-<th>Steilfeuerkoordinator</th>
-
-<th>Bemerkung</th>
-
-</tr>
-
-<tr>
-
-<td>Thunder this is Fletcher, Fire for Effect, over</td>
-
-<td>Fletcher this is Thunder, Adjust Fire, out</td>
-
-<td>Ein Ziel soll zerstört werden</td>
-
-</tr>
-
-<tr>
-
-<td>Grid 1234 5678, over</td>
-
-<td>Grid 1234 5678 out</td>
-
-<td>Zielposition</td>
-
-</tr>
-
-<tr>
-
-<td>Infantry in the open, WP in Effect, At my Command, over</td>
-
-<td>Infantry in the open, WP in Effect, At your Command, out</td>
-
-<td>Weißer Phosphor auf Befehl der Truppe</td>
-
-</tr>
-
-<tr>
-
-<td></td>
-
-<td>Ready, out</td>
-
-<td>Artillerie ist feuerbereit</td>
-
-</tr>
-
-<tr>
-
-<td>Shot,over</td>
-
-<td>Shot, out</td>
-
-<td>Artillerie hat Feuererlaubnis und feuert</td>
-
-</tr>
-
-<tr>
-
-<td></td>
-
-<td>Rounds complete, out</td>
-
-<td>Artillerie hat verschossen</td>
-
-</tr>
-
-<tr>
-
-<td></td>
-
-<td>Splash, over</td>
-
-<td>5 Sekunden vor Einschlag</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-Nach dem Einschlag könnte ein erneutes Feuer nötig sein bzw eine Korrektur zum Einschlagsort. Auch möglich ist, dass das Ziel bekämpft ist dann meldet die Truppe Firemission complete und eine Einschätzung über die bekämpften Kräfte (sogennanter BDA)  
-
-Ein Beispiel: Thunder this is Fletcher, BDA, 20 KIA, enemy retreating, Firemission complete, out
-
-## Vereinfachter Call for Fire
-
-Wenn es mal schnell gehen muss:
-
-<table border="1">
-
-<tbody>
-
-<tr>
-
-<th>Anfordernde Truppe</th>
-
-<th>Steilfeuerkoordinator</th>
-
-</tr>
-
-<tr>
-
-<td>Thunder this is Fletcher, Immediate Suppression, Grid 1234 5678, over</td>
-
-<td>Fletcher this is Thunder, Immediate Suppression, Grid 1234 5678, out</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-Die Beschreibung des Ziels sowie Muntionstyp ist dabei zunächst irrelevant und wird weggelassen
-
-Im realen Leben wird dem Ziel desweiteren eine Nummer zugewiesen und im Artilleriecomputer gespeichert, falls ein erneuter Beschuss der Position notwendig wird.
-
-Viel Spaß beim Ausprobieren, Rampage
+**Einleitung**
+hier enthaltenen Informationen beziehen nur teilweise auf das militärische Vorbild. Diese Anleitung soll dazu dienen, dem Spieler einen groben Überblick über das militärische Funken zu verschaffen. Gleichzeitig soll dadurch eine Standardisierung der Funkweise erreicht werden.
+
+
+**Grundlagen**
+Voraussetzung für den reibungslosen Sprechbetrieb ist eine verständliche
+Sprechweise
+
+Dazu ist es erforderlich:
+
+* deutlich und dialektfrei zu sprechen
+
+* normale Stimmlage und mittlere Lautstärke einzuhalten
+ 
+*  nicht zu schnell oder zu langsam zu sprechen
+
+*  Wörter in sich geschlossen und ohne Verschlucken der Endsilben auszusprechen
+ 
+* Sätze zu unterteilen und sinngemäß zu betonen
+ 
+*  das Mikrofon nicht zu nah und nicht zu weit an den Mund zu halten
+ 
+*  Sprechpausen einzulegen
+ 
+* schwer verständliche Wörter zu buchstabieren
+ 
+* mit dem Sprechen erst ein bis zwei Sekunden nach dem Drücken der Sprechtaste zu beginnen
+
+
+**NATO-Buchstabieralphabet:**
+Beim Buchstabieren und bei der Übermittlung einzelner Buchstaben ist das NATO-Buchstabieralphabet anzuwenden.
+
+A ALFA
+B BRAVO
+C CHARLIE
+D DELTA
+E ECHO
+F FOXTROT
+G GOLF
+H HOTEL
+I INDIA
+J JULIETT
+K KILO
+L LIMA
+M MIKE
+N NOVEMBER
+O OSCAR
+P PAPA
+Q QUEBEC
+R ROMEO
+S SIERRA
+T TANGO
+U UNIFORM
+V VICTOR
+W WHISKEY
+X XRAY
+Y YANKEE
+Z ZULU
+
+
+**Zahlenfolgen:**
+Mehrstellige Zahlen sind in der Regel in einzelnen Ziffern zu sprechen. Zu beachten ist, dass die Ziffer 2 (zwei) als „zwo“ ausgesprochen wird. Das verhindert die Verwechslung mit der Ziffer 3 (drei).
+Beispiele:
+– „44“ = „vier vier“
+– „136“ = „eins drei sechs“
+– „F-12+15“ = „FOXTROT minus eins zwo plus eins fünf“
+
+Davon abweichend ist es möglich, bei guter Verständlichkeit mehrstellige
+Zahlen als Wörter zu übermitteln. 
+Beispiele:
+– „136“ = „einhundertsechsunddreißig“
+– „KnVSt 129“ = „Knotenvermittlungsstelle einhundertneunundzwanzig“
+
+Der Abschluss einer Sendung geschieht grundsätzlich mit dem Betriebswort „kommen”. Wird keine Antwort erwartet, ist die Sendung mit „Ende” abzuschließen.
+Eine Nachricht gilt als übermittelt, wenn sie mit \"verstanden\" quittiert wird.
+
+
+**Rufnamen / Rufzeichen:**
+Jede Funkstelle erhält als Rufnamen einen festgelegten Decknamen. Funkstellen mit gleichem Decknamen unterscheidet man durch Beifügung von Zahlen oder Buchstaben. 
+
+
+**Anrufarten:**
+Ein Anruf ist klar strukturiert. Im militärischen Bereich, ist dieser grundsätzlich immer gleich aufgebaut.
+Beispiel:
+Ziel HIER Anrufer, kommen!
+
+
+Es gibt folgende Anrufarten:
+
+**Einzelanruf:**
+Bei guter Verbindung wird das Anrufverfahren verkürzt. Die gerufene Funkstelle meldet sich sofort mit ihrem Rufnamen. Beim Einzelruf wird nur eine Funkstelle gerufen. 
+Beispiel:
+– Anruf:
+„Puma, hier Löwe, kommen!”.
+– Antwort:
+„Löwe, hier Puma, kommen!”.
+– Verkürzte Antwort:
+„Hier Puma, kommen!”.
+
+**Reihenruf:**
+Mit dem Reihenruf werden mindestens zwei Funkstellen, höchstens jedoch die Hälfte der Kreisteilnehmer gerufen. Die gerufenen Kreisteilnehmer antworten in alphabetischer Reihenfolge.
+Beispiel:
+– Anruf:
+„Jaguar, Puma, hier Löwe, kommen!”.
+– Antwort:
+„Löwe, hier Jaguar, kommen!”.
+„Löwe, hier Puma, kommen!”.
+– Verkürzte Antwort:
+„Hier Jaguar, kommen!”.
+„Hier Puma, kommen!”.
+
+**Sammelruf:**
+Mit dem Sammelruf werden alle Kreisteilnehmer gerufen. Sie antworten in alphabetischer Reihenfolge.
+Beispiel:
+– Anruf:
+„Löwe an alle, kommen!”.
+– Antwort:
+„Löwe, hier Jaguar, kommen!”.
+„Löwe, hier Puma, kommen!”.
+„Löwe, hier Tiger, kommen!”.
+– Verkürzte Antwort:
+„Hier Jaguar, kommen!”.
+„Hier Puma, kommen!”.
+„Hier Tiger, kommen!”.
+
+**Sammelanruf mit Ausnahme:**
+Mit dem Sammelruf mit Ausnahme werden mehr als die Hälfte der Kreisteilnehmer, ausgenommen die nicht verlangten Kreisteilnehmer, gerufen.
+Beispiel:
+– Anruf:
+„Löwe an alle, ausgenommen Puma, kommen!”.
+– Antwort:
+„Löwe, hier Jaguar, kommen!”.
+„Löwe, hier Tiger, kommen!”.
+– Verkürzte Antwort:
+„Hier Jaguar, kommen!”.
+„Hier Tiger, kommen!”.
+
+**Erweiterter Anruf:**
+Mit dem erweiterten Anruf, z.B. bei schlechter Verständigung, wird der Anruf zweimal gesprochen, die Antwort einfach oder zweifach gegeben.
+Beispiel:
+– Anruf:
+„Puma, hier Löwe, Puma, hier Löwe, kommen, kommen!”.
+– Antwort:
+„Löwe, hier Puma, Löwe, hier Puma, kommen, kommen!”.
+– Verkürzte Antwort:
+„Hier Puma, hier Puma, kommen, kommen!”.
+
+
+**Fragestellungen:**
+In einer normalen Unterhaltung, werden Fragen durch Betonung ausgedrückt. Bei einer ggf. schlechten Funkverbindung, kann es dabei leicht zu Missverständnissen kommen. Um Diese zu vermeiden, werden Fragen ganz klar als solche formuliert.
+Beispiel:
+„Puma, hier Löwe, Frage: Wie verstehen Sie mich? Kommen!“
+
+
+**Verkehrsunterbrechung**
+Bleibt nach einem Anruf die Antwort einer Funkstelle aus, wartet die der Reihenfolge nach nächstfolgende Funkstelle 5 Sekunden mit ihrer Antwort. Die übersprungene Funkstelle wartet, bis alle Funkstellen des Funkkreises geantwortet haben. 
+
+Kann die gerufene Funkstelle einen Anruf nicht sofort beantworten, benutzt sie das Betriebswort „Warten Sie“. Die Antwort hat innerhalb von 30 Sekunden zu erfolgen.
+
+Wird eine Sendung für längere Zeit unterbrochen (> 30 Sekunden), ist die Übertragung mit dem Betriebswort „Warten Sie – Ende“ abzuschließen. Der Sprechfunkbetrieb ist dann mit einem neuen Anruf fortzusetzen. Ist die Dauer der Wartezeit abzusehen, ist hinter dem Betriebswort die Zeit in Minuten anzugeben (z.B.: „Warten Sie fünf – Ende“).
+
+
+**Verständigungsverkehr**
+Bei der Verkehrseröffnung prüft die Kreisleitstelle die Verständigung innerhalb eines Funkkreises wie folgt:
+Beispiel:
+– Anruf:
+„Löwe an alle, Frage: wie hören Sie mich, kommen!“.
+– Mögliche Antworten:
+„Hier Jaguar, ich höre Sie schlecht, kommen!“.
+(die Worte sind verzerrt oder nur schwach zu hören).
+„Hier Puma, ich höre Sie gut, kommen!“.
+(alle Worte sind klar zu verstehen).
+„Hier Tiger, ich kann Sie nicht aufnehmen, Ende!“.
+(die Worte sind nicht zu hören oder zu verstehen).
+
+**Funkgespräche:**
+Ein Funkgespräch wird wie folgt geführt:
+Beispiel:
+– Anruf:
+„Puma, hier Löwe, kommen!“.
+– Verkürzte Antwort:
+„Hier Puma, kommen!“.
+– Übermittlung:
+„Puma, hier Löwe, auf angreifenden Feind Feuer, kommen!“.
+– Antwort:
+„Hier Puma, verstanden, Ende“.
+
+**Fehlerberichtigung:**
+Die Berichtigung von Fehlern wird während einer Übermittlung oder am Ende mit den Worten „ich berichtige“ vorgenommen.
+Beispiel:
+– Berichtigung während der Sendung:
+„Puma, hier Löwe, ein Funkspruch, eins drei eins null fünf – ich berichtige eins drei eins null vier null ... usw., kommen!“.
+– Berichtigung am Ende der Sendung:
+„Puma, hier Löwe, ein Funkspruch, eins drei eins null fünf null ZULU, Trennung, KLR und VUZ bei RL KY TA GQ, Trennung, ich berichtige Zeit: eins drei eins null vier null ZULU, kommen!“.
+
+
+**An- / Abmeldung aus dem Funkkreis**
+Funkstellen, die einen Funkkreis verlassen, melden sich bei der
+Kreisleitstelle ab.
+Beispiel:
+– Abmeldung:
+„Löwe, hier Panther, ich melde mich ab, kommen!“.
+– Antwort:
+„Hier Löwe, verstanden, Ende.“.'
+
+*Original Created by koji*
