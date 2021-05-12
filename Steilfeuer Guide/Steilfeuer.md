@@ -1,5 +1,10 @@
 # Call for Fire - Feuerunterstützung durch Steilfeuerwaffen
 
+## Vorwort
+
+Um Steilfeuerwaffen schnell und sicher ins Ziel zu lenken, wurde durch die US Army die Standardisierung "Call for Fire" entworfen.
+Gern könnt ihr euch die Print-Version herunterladen und ausdrucken, sie enthält alles was ihr braucht um Artillerie anzufordern.
+
 ## Elemente des Call For Fire
 
 *   Missionsart
@@ -22,7 +27,7 @@
     *   Time on target - Artillerie schießt so, dass Munition zur angegebenen Zeit einschlägt
     *   Continuous Illumination - Artillerie schießt so, dass immer Beleuchtung vor Ort ist
 
-Feuerunterstützung wird über Funk von der Truppe an einen Verantwortlichen bei der Steilfeuerwaffe übermittelt.  
+Anforderungen für Feuerunterstützung werden über Funk von der Truppe an einen Verantwortlichen bei der Steilfeuerwaffe übermittelt.  
 Grundsätzlich werden dabei 3 Funksprüche gemacht:  
 
 1\. Funkanruf und Missionsart  
@@ -156,5 +161,7 @@ Wenn es mal schnell gehen muss:
 Die Beschreibung des Ziels sowie Muntionstyp ist dabei zunächst irrelevant und wird weggelassen
 
 Im realen Leben wird dem Ziel desweiteren eine Nummer zugewiesen und im Artilleriecomputer gespeichert, falls ein erneuter Beschuss der Position notwendig wird.
+
+Danke an Lizzy für die Print-Version!
 
 Viel Spaß beim Ausprobieren, Rampage

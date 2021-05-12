@@ -4,13 +4,15 @@
 
 Ihr habt Verletzte und könnte diese nicht adequat behandeln bzw verfügt nicht über die Mittel? Dann solltet ihr eine Evakuierung anfordern, zwei Arten praktizieren wir:
 
-* CASEVAC Casualty Evacuation
+* CASEVAC = Casualty Evacuation
 
 	* "Unqualifizierter" Patiententransport mit dem nächstgelegenem Transportmittel
+	* Bspw: Transporthubschrauber der gerade Logistik fliegt, Eigenes KFZ der Truppe
 
-* MEDEVAC Medical Evacuation
+* MEDEVAC = Medical Evacuation
 
-	* Dedizierts Transportmittel welches NUR für den medizinischen Transport vorgesehen ist. 
+	* Dedizierts Transportmittel welches NUR für den medizinischen Transport vorgesehen ist.
+	* Bspw: Beweglicher Arzttrupp (BAT) oder UH-60 Medevac 
 
 ## Aufbau
 
