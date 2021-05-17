@@ -2,8 +2,48 @@
   "guides": [
       {
         "name": "Call for Fire - Feuerunterstützung durch Steilfeuerwaffen",
-        "downloadLink": "https://github.com/TaskForce47/TF47-Guides/raw/main/Steilfeuer%20Guide/CallForFire_A5_bw_midfull.pdf",
+        "downloadLink": "https://github.com/TaskForce47/TF47-Guides/blob/main/Steilfeuer%20Guide/CallForFire_A5_bw_midfull.pdf",
         "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/Steilfeuer%20Guide/Steilfeuer.md"
+      },
+      {
+        "name": "Close Combat Attack (CCA) - Feuerunterstützung durch Hubschrauber mittels 5-Line",
+        "downloadLink": "https://github.com/TaskForce47/TF47-Guides/blob/main/5%20Line%20CCA/CCA_DSF%205-Liner.pdf",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/5%20Line%20CCA/5Line_CCA.md"
+      },
+        {
+        "name": "Close Air Support (CAS) - Feuerunterstützung durch Luftfahrzeuge mittels 9-Line (JTAC)",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/9%20Line%20CAS/9Line_CAS.md"
+      },
+      {
+        "name": "CASEVAC / MEDEVAC - Medizinische Evakuierung mit den 9-Liner",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/9%20Line%20MEDEVAC/9Line_Medevac.md"
+      },
+      {
+        "name": "Check-In",
+        "downloadLink": "https://github.com/TaskForce47/TF47-Guides/blob/main/Check-In/CheckInBriefing.pdf",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/Check-In/Check-In.md"
+      },
+      {
+        "name": "EMMA",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/EMMA/EMMA.md"
+      },
+      {
+        "name": "EREZA",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/EREZA/EREZA.md"
+      },
+      {
+        "name": "Funksprech",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/Funksprech/Funksprech.md"
+      },
+      {
+        "name": "Close Combat Attack (CCA) - Feuerunterstützung durch Hubschrauber mittels 5-Line",
+        "downloadLink": "",
+        "markdownSource": "https://raw.githubusercontent.com/TaskForce47/TF47-Guides/main/Funksprech-LFZ/Funksprech_LFZ.md"
       }
     ]
 }
